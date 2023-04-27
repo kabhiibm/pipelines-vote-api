@@ -1,4 +1,4 @@
-FROM registry.ghatwala-fd410-nex.163.68.64.60.nip.io:5000/rh-osbs/golang:latest as builder
+FROM registry.redhat.io/ubi8/go-toolset:1.17 as builder
 
 WORKDIR /build
 ADD . /build/
