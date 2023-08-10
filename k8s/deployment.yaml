@@ -15,7 +15,7 @@ spec:
         app: pipelines-vote-api
     spec:
       containers:
-        - image: 10.0.1.75:6440/kabhishe/pipelines-vote-api:v1
+        - image: 10.0.249.20:6440/gitops/pipelines-vote-api:v1
           imagePullPolicy: Always
           name: pipelines-vote-api
           ports:
